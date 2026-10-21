@@ -2,7 +2,9 @@ what was ask
 you are writing the page that explains an official process to people who do not
 know it — registering for an exam, opening a bank account, applying for an ID card, enrolling a
 child in school. Pick a process you have actually been through.
-what i got
+
+this is what i got with the prompt i gave it on explaining someone how to apply for an ID card.
+
 <h1>How to Apply for a Gambian National Identity Card</h1>
 
     <p>This guide explains how to prepare for and complete the Gambian National Identity Management System Citizen Application Form. It covers the information applicants need to provide and the final declaration and authentication sections.</p>
@@ -45,5 +47,13 @@ what i got
 
     <p>The final section is for authentication. The form asks the authenticator to certify that the applicant is personally known to them and that the information provided is believed to be true and correct. It also requests the authenticator's National Identification Number, signature, and date.</p>
 
+Another question that was ask
+Write down: how many <h1> elements per page,
+and what happens if you jump from <h2> straight to <h4>Write down: how many <h1> elements per page,
+and what happens if you jump from <h2> straight to <h4>
+
+answer: A webpage should generally have one main <h1> element to identify the page's main topic.
+
+answer: Jumping from <h2> to <h4> skips the <h3> level and can make the document's heading structure confusing. It may make it harder for users, including those using screen readers, to understand how the sections relate to one another.
 
 
