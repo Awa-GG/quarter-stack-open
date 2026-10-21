@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RR&KS Business Center offers printing, photocopying, laminating, T-shirt printing, photography, and other business services in The Gambia.">
+    <title>RR&KS Business Center | Printing and Business Services</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #243247;
+            background-color: #f4f7fb;
+        }
+
+        header {
+            background-color: #102a43;
+            color: #ffffff;
+            padding: 20px 8%;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #f6bd60;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 22px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f6bd60;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #102a43, #176b87);
+            color: #ffffff;
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #f6bd60;
+            color: #102a43;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #ffffff;
+        }
+
+        section {
+            padding: 55px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+            color: #102a43;
+            margin-bottom: 15px;
+        }
+
+        .section-description {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 35px;
+            color: #526477;
+        }
+
+        .about {
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 22px;
+        }
+
+        .service-card {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            border-top: 4px solid #176b87;
+            box-shadow: 0 4px 12px rgba(16, 42, 67, 0.08);
+        }
+
+        .service-card h3 {
+            color: #102a43;
+            font-size: 19px;
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            margin-bottom: 8px;
+        }
+
+        .price {
+            color: #087f5b;
+            font-weight: bold;
+        }
+
+        .note {
+            color: #526477;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+
+        .why-us {
+            background-color: #e8f1f7;
+        }
+
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .benefit {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        .benefit h3 {
+            color: #176b87;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .contact p {
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background-color: #102a43;
+            color: #ffffff;
+            text-align: center;
+            padding: 22px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 20px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            section {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">RR<span>&amp;</span>KS Business Center</div>
+
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services &amp; Prices</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>Your Trusted Printing Partner</h1>
+            <p>
+                Welcome to RR&amp;KS Business Center! We provide printing,
+                photocopying, laminating, photography, and other business
+                services to help you with your everyday needs.
+            </p>
+            <a class="button" href="#services">Explore Our Services</a>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="section-title">About RR&amp;KS Business Center</h2>
+            <p>
+                RR&amp;KS Business Center is a printing and business service
+                provider committed to helping students, individuals, and
+                businesses with their printing and document needs. Whether
+                you need to print documents, photocopy important papers,
+                laminate certificates, or create personalized gifts, we
+                offer a range of services to meet your needs.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">Our Services and Prices</h2>
+            <p class="section-description">
+                Explore our services and prices below. All prices are in
+                Gambian dalasis (D). Prices marked as dependent on design
+                or quantity are provided after discussing your requirements.
+            </p>
+
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <h3>Printing Services</h3>
+                    <p>Black-and-white printing</p>
+                    <p class="price">D10 per page</p>
+                    <p>Colour printing</p>
+                    <p class="price">D25 per page</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Photocopying</h3>
+                    <p>Black-and-white photocopying</p>
+                    <p class="price">D5 per page</p>
+                    <p>Colour photocopying</p>
+                    <p class="price">D25 per page</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Document Laminating</h3>
+                    <p>Protect your important documents with our laminating service.</p>
+                    <p class="price">D50 per document</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>T-Shirt Printing</h3>
+                    <p>Customize T-shirts with your preferred design.</p>
+                    <p class="price">D350</p>
+                    <p class="note">Confirm the final price when placing your order.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Cup and Cap Printing</h3>
+                    <p>Personalized printing on cups and caps.</p>
+                    <p class="price">Price depends on material and design.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Invoices and Receipts</h3>
+                    <p>Printing invoices and receipts for your business.</p>
+                    <p class="price">Price depends on quantity and number of pages.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Book Making</h3>
+                    <p>Book preparation and making services.</p>
+                    <p class="note">Contact us to discuss your book requirements and price.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Passport-Size Photography</h3>
+                    <p>Passport-size photos for your identification and application needs.</p>
+                    <p class="price">D100 for 4 photos</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Photo Album Making</h3>
+                    <p>Create albums to keep your special memories in one place.</p>
+                    <p class="note">Price depends on your requirements.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Pens and Pencils</h3>
+                    <p>Writing materials for school, home, and office.</p>
+                    <p class="price">D5 each</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Envelopes</h3>
+                    <p>Large paper envelope</p>
+                    <p class="price">D10 each</p>
+                    <p>Small paper envelope</p>
+                    <p class="price">D5 each</p>
+                    <p>Plastic envelope</p>
+                    <p class="price">D25 each</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Exercise Books</h3>
+                    <p>200-page exercise book</p>
+                    <p class="price">D25 each</p>
+                    <p>25-page exercise book</p>
+                    <p class="price">D15 each</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="why-us">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <p class="section-description">
+                We aim to make printing and document services convenient
+                for students, individuals, and businesses.
+            </p>
+
+            <div class="benefits">
+                <div class="benefit">
+                    <h3>Multiple Services</h3>
+                    <p>Find a variety of printing and business services in one place.</p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Clear Pricing</h3>
+                    <p>Check our listed prices before requesting a service.</p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Personalized Printing</h3>
+                    <p>Choose designs for T-shirts, cups, and caps.</p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Student Friendly</h3>
+                    <p>Get printing, photocopying, and school supplies for your studies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>
+                Need printing, photocopying, or another business service?
+                Get in touch with RR&amp;KS Business Center.
+            </p>
+            <p><strong>Business name:</strong> RR&amp;KS Business Center</p>
+            <p><strong>Location:</strong>Brusubi phase 1</p>
+            <p><strong>Phone:</strong>835292945 or 872396606.</p>
+            <p><strong>Email:</strong>shonarohey@gmail.com.</p>
+            <p class="note">
+                Please contact us to confirm prices for services that depend
+                on design, material, quantity, or document specifications.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RR&amp;KS Business Center. All rights reserved.</p>
+        <p>Printing, Photocopying, Photography, and Business Services.</p>
+    </footer>
+
+</body>
+</html>
+```
