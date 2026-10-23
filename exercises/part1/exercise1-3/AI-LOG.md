@@ -7,7 +7,7 @@ people what they offer.
 
 Use a real business you can name, and real services at plausible prices. Ask them if you can. i want to use a printing shop call RR&KS business center, they offer printing services  price= D25 for color printing and D10 for black and white color like photo copy price = D5 for black and white  D25 for color per page, printing, laminating price is D50 per document, t-shirt printing price= 350, cups and caps printing prices depend on the material and design you want on them, invoices and recipte price depend the number of copies and pages you want books making, passport science photo taking price = D100 for 4 photos, album photo making, pens and pencil  price D5 each, envelops big is D10 small D5 plastic envelope is D25, exercise books 200 pages price D25, 25 pages D15 , make it a perfect html web for this business with zero errors
 
-wha was ask the second time
+what was ask the second time
 answer: Write down: when do you use <ol> and when
 <ul> , and where exactly does a nested list go relative to its <li> ? Then check yourself
 against
