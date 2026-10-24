@@ -1,0 +1,150 @@
+what i ask AI 
+
+answer:Requirements: 
+Submit: exercises/part1/exercise1-5/about-me.html · commit "Complete exercise 
+1.5" 
+Exercise 1.6: Ship it like a real project 
+Create about-me.html 
+Complete, valid HTML5 structure with a meaningful <title> 
+One <h1> with your name 
+At least three <h2> sections — suggested: About Me, My Background, What I'm Working 
+Towards 
+At least three paragraphs of real content 
+One <ol> and one <ul> , each earning its type 
+<strong> at least twice, <em> at least twice, <abbr> at least once — each one justified 
+<hr> used as a genuine thematic break, not a decoration 
+Minimum 150 words of real content — no placeholder text anywhere 
+Zero validator errors 
+help me create a perfect about me page in html following the instruction given , (national diploma) Computer Science student in civil service university You are building your future towards becoming a programmer and developer,  that's my back ground and what i'm working towards
+
+
+what AI give me
+
+answer:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting to Know Me - Awa Gaye</title>
+</head>
+<body>
+    <h1>Awa Gaye - My Journey into Web Development</h1>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            My name is <strong>Awa Gaye</strong>, and I am a student pursuing
+            a <abbr title="National Diploma">ND</abbr> in Computer Science at
+            Civil Service University. I am a curious and determined student
+            who enjoys learning new things, especially in the world of
+            technology. I believe that education, patience, and hard work
+            are important for personal growth. Although learning computer
+            science can sometimes be challenging, I am willing to keep
+            practising and improving my skills.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>My Background</h2>
+        <p>
+            Studying Computer Science has introduced me to the basics of
+            computing, programming, and web development. I am learning how
+            computers work and how people use technology to solve problems.
+            My studies are helping me develop <strong>problem-solving skills</strong>,
+            logical thinking, and creativity. I am also learning that becoming
+            good at web development requires regular practice and the ability
+            to learn from mistakes.
+        </p>
+
+        <p>
+            As a student, I understand that success does not happen overnight.
+            I must remain focused, ask questions when I need help, and be
+            willing to try again when something is difficult. I am committed
+            to making the most of my education and gaining useful knowledge
+            that I can apply in real-life situations.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>What I Am Working Towards</h2>
+        <p>
+            My main goal is to become a skilled <em>web developer</em>.
+            I want to learn how to create attractive, useful, and
+            user-friendly websites that help people in their daily lives.
+            I am particularly interested in web development because it
+            allows me to combine creativity with technical skills. I want
+            to learn how to use HTML, CSS, and JavaScript to build websites
+            that look good and work properly.
+        </p>
+
+        <p>
+            To achieve my goals, I plan to focus on the following activities:
+        </p>
+
+        <ol>
+            <li>Complete my National Diploma in Computer Science successfully.</li>
+            <li>Practise writing HTML, CSS, and JavaScript.</li>
+            <li>Build my own websites to improve my practical experience.</li>
+            <li>Learn how to make websites accessible and easy to use.</li>
+        </ol>
+
+        <p>
+            I know that becoming a web developer takes time, but I am ready
+            to learn step by step. I believe that <em>consistency and
+            determination</em> will help me achieve my dreams.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>My Interests and Strengths</h2>
+        <p>
+            Outside my regular lessons, I enjoy exploring technology and
+            discovering how websites are created. I like learning new skills
+            and finding solutions to problems. I want to become someone who
+            can use web technologies in a responsible and creative way.
+            I also understand the importance of communication, teamwork,
+            and continuous learning in the technology industry.
+        </p>
+
+        <p>Some areas I would like to explore further include:</p>
+
+        <ul>
+            <li>Website design and development</li>
+            <li>HTML and CSS for building and styling web pages</li>
+            <li>JavaScript for adding interactive features to websites</li>
+            <li>Responsive design for mobile phones and computers</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>My Commitment to Learning</h2>
+        <p>
+            As a National Diploma Computer Science student, I know that
+            every skill I develop today can prepare me for future
+            opportunities. I want to become a web developer who creates
+            useful, accessible, and reliable websites. I am willing to
+            learn from experienced people, accept feedback, and improve
+            through practice. My journey is still beginning, but I am
+            proud to be taking steps towards a career in web development.
+        </p>
+
+        <p>
+            My story is about growth, ambition, and believing in what I can
+            achieve. With patience, dedication, and a willingness to learn,
+            I hope to turn my interest in technology into a successful
+            career as a web developer.
+        </p>
+    </section>
+</body>
+</html>
