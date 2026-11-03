@@ -1,0 +1,34 @@
+error found:The problem is that the title has no closing </title> tag.
+how to fixed it: Fix: Added the missing closing title tag. 
+
+second error found: The problem is that opening <html> tag does not declare the language of the page.
+how to fixed it: Fix: Added lang="en" to declare that the page is in English
+
+Symptom: The validator reported that a
+ heading could not be a child of another heading.
+  Cause: The h1 element was incorrectly opened a second time instead of being closed with </h1>.
+
+Symptom: The heading structure was incorrect because the next element appeared before the previous heading was closed.
+ Cause: The h2 element was missing its closing </h2> tag.
+ 
+ how to fixed it: Added the missing closing h2 tag
+
+ Symptom: The validator reported a stray closing em tag. Cause: 
+ The paragraph opened a strong element but incorrectly closed it with an em tag.
+
+ Symptom: The validator reported that a ul element was not allowed inside an h3 element. Cause: The h3 heading was missing its closing tag, causing the unordered list to be interpreted as part of the heading.
+ how to fixed it : add a closing tag to the <h3> element 
+
+
+ Symptom: The validator reported an incorrect h3 closing tag.
+  Cause: The Top 5 Books heading was opened with h2 but incorrectly closed with h3.
+
+  how to fixed : close the <h2> tag with a correct closing not a <h3>
+
+  Symptom: The validator reported that an ol element was not allowed inside another ol element. Cause: Book Three was incorrectly wrapped in an ol tag instead of an li tag.
+
+  how to fixed:  Changed the incorrect nested ol element into a list item.
+
+  Symptom: The validator reported that the p end tag was seen while an element was still open. Cause: The strong element was closed after the paragraph instead of before it, creating incorrect nesting.
+
+how to fixed it: Corrected the nesting order by closing strong before closing p.
